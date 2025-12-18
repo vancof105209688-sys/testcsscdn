@@ -1,4 +1,4 @@
-   :root {
+:root {
 ---animation_ignore: "ANIMATION_IGNORE";
 ---animation_update: "ANIMATION_UPDATE";
        } 
@@ -62,28 +62,3 @@ justify-content: center;
     font-size: calc(var(---username-icon___i--font-size) / 1.5);
     color: rgb(34, 34, 34);
 }
-.new-username {
-    display: flex;
-    align-items: center;
-    height: calc((var(---card--height) - (var(---username-icon--height) + var(---card-icon-text--height))) / 10);
-    background-color: #00426d;
-    width: 70%;
-    padding:  calc((var(---card--height) + var(---card--width)) / 200) !important;
-    border-radius: calc((var(---card--height) + var(---card--width)) / 200);
-    justify-content: space-between;
-    margin-top: calc(var(---new-username--height) / 3) !important;
-        
-}
-.new-username i {
-    height: 100%;
-    width: var(---new-username--height);
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    background-color: rgb(255, 255, 255);
-    border-radius: var(---new-username--border-radius);
-    font-size: calc(var(---card-icon-text--font-size) / 1.3);
-    color: #3f3f3f;
-    
-}
-
